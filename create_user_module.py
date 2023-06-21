@@ -12,7 +12,7 @@ import wx.xrc
 import sqlite3 as lite
 
 
-conn = lite.connect('D:/大學/大三上/網路與資料庫程式設計/期中專案/bookmark/bookmark.db')
+conn = lite.connect('bookmark.db')
 cur = conn.cursor()
 ###########################################################################
 # Class createFrame
