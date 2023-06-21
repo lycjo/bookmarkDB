@@ -9,7 +9,7 @@ import clue_module
 
 # 設定chorme.exe的路徑好讀取並用chrome開啟
 chrome_path = "C:/Program Files/Google/Chrome/Application/chrome.exe"
-conn = lite.connect('D:/大學/大三上/網路與資料庫程式設計/期中專案/bookmark/bookmark.db')
+conn = lite.connect('bookmark.db')
 cur = conn.cursor()
 
 ###########################################################################
